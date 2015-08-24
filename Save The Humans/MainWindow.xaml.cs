@@ -116,7 +116,7 @@ namespace Save_The_Humans
             storyboard.Children.Add(animation);
             storyboard.Begin();
         }
-
+        
         private void Human_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (enemyTimer.IsEnabled)
